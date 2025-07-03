@@ -1,0 +1,172 @@
+
+
+/* border properties */
+.borderProperties{
+    border-style: dashed;
+    border-style: dotted;
+    border-style:groove;
+    border-style:hidden ;
+    border-style:inherit ;
+    border-style:initial ;
+    border-style:inset ;
+    border-style:none ;
+    border-style:unset ;
+    border-style:outset ;
+    border-style:ridge ;
+    border-style:solid ;
+}
+
+.borderRadious{
+    border-radius:  80% 20% 61% 39% / 32% 55% 45% 68%  ;
+}
+
+/* display property */
+/* p{
+    display:block;
+    display: inline;
+    display:inline-block;
+    display: run-in;
+    display:none;
+} */
+
+/* float property */
+/* img{
+    float: right;
+    float: left;
+    float: initial;
+    float: inherit;
+} */
+
+/* font property */
+/* p{
+    font-size: 100px;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* hover property and important */
+
+.btn{
+    background-color: red !important;
+    color: aliceblue;
+    padding: 40px;
+}
+.btn{
+    background-color: gray;
+    color: aliceblue;
+    padding: 40px;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: red;
+}
+
+/* line height */
+/* p{
+    line-height: 100%;
+} */
+
+/* margin property */
+/* p{
+    margin: 80px 50px 30px 70px;
+} */
+
+/* padding property */
+/* p{
+    padding: 80px 50px 30px 70px;
+} */
+
+/* filter */
+/* img{
+    filter: brightness(300%);
+    filter: blur(20px);
+    filter: invert(60);
+    filter: saturate(50);
+    filter: contrast(10%);
+    filter:drop-shadow(10px 20px 30px yellow);
+    filter: opacity(40%);
+    filter: hue-rotate(245deg);
+    filter: grayscale(80%);
+    filter: sepia(90%);
+} */
+
+/* over flow property */
+/* div{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    overflow: auto;
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+
+/* position */
+.position{
+    position: fixed;
+    position: relative;
+    position:absolute;
+    top: 10px;
+    color: red;
+    background-color: aqua;
+    right: 10px;
+    left: 10px;
+}
+
+/* word wrap */
+div.a{
+    width: 150px;
+    border: 1px solid red;
+    word-wrap: normal;
+}
+div.b{
+    margin: 10px 0px;
+    width: 150px;
+    border: 1px solid red;
+    word-wrap: break-word;
+}
+
+/* justify content */
+.justifycontent{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+/* text decoration */
+/* p{
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration:overline;
+    text-decoration:overline underline line-through;
+} */
+
+/* letter spacing */
+/* p{
+    letter-spacing: normal;
+    letter-spacing: 10px;
+    letter-spacing: -10px;    
+} */
+/* word spacing */
+/* p{
+    word-spacing: normal;
+    word-spacing: 10px;
+    word-spacing: -10px;
+} */
+
+/* variable diclaration*/
+:root{
+    --primaryColor: rgb(216, 114, 114);
+    --textColor: rgb(51, 51, 51);
+}
+/* variable use */
+.variable{
+    color: var(--textColor);
+}
